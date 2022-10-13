@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="146dp"
+            android:layout_height="49dp"
+            android:text="submit"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="637dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="146dp"
+            android:layout_height="49dp"
+            android:text="remove"
+            tools:layout_editor_absoluteX="210dp"
+            tools:layout_editor_absoluteY="637dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="141dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Zip Code"
+            tools:layout_editor_absoluteX="213dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="302dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Neighborhood"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="207dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="302dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="City"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="274dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName8"
+            android:layout_width="302dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="State"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="345dp" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="138dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="Number"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="298dp"
+            android:layout_height="176dp"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="429dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="146dp"
+        android:layout_height="49dp"
+        android:text="submit"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="637dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="146dp"
+        android:layout_height="49dp"
+        android:text="remove"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="637dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address Information"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="302dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Addres"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
